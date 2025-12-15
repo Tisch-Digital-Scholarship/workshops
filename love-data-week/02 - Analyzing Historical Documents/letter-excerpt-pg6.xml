@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rosa Parks Correspondence: Undated partial letter</title>
+        <author>Rosa Parks</author>
+        <respStmt>
+          <resp>transcription by</resp>
+          <persName>Anna Kijas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>encoded by</resp>
+          <persName></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Library of Congress</repository>
+            <collection>Rosa Parks Papers: General Correspondence, 1928-2006; Alphabetical file; King, Martin Luther, Jr., 1956-1957, undated</collection>
+            <idno>mss85943, box 4</idno>
+            <altIdentifier>
+              <idno type="URI">http://hdl.loc.gov/loc.mss/ms014094.mss85943.0066</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <p>
+          or any other date <del rend="strikethrough">around</del> <add place="above">near</add> that time. We learn from your office that you <del rend="strikethrough">couldn't appear</del> <add place="above">ARE UNABLE TO COME</add> here in March. We are prepared to underwrite your expenses. <del rend="strikethrough">since</del> This <add>EVENT</add> will most certainly be an historic occasion for Detroiters and others across the country.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rosa Parks Correspondence</title>
+        <author>Rosa Parks</author>
+        <respStmt>
+          <resp>transcription by</resp>
+          <persName>Anna Kijas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>encoded by</resp>
+          <persName></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Library of Congress</repository>
+            <collection>Rosa Parks Papers: General Correspondence, 1928-2006; Alphabetical file; King, Martin Luther, Jr., 1956-1957, undated</collection>
+            <idno>mss85943, box 4</idno>
+            <altIdentifier>
+              <idno type="URI">http://hdl.loc.gov/loc.mss/ms014094.mss85943.0066</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+            <p>
+              <objectType n="1">Stamp</objectType> from England with the imprint
+              <quote>8 d Postage Revenue</quote>
+              <figure>
+                <figDesc>The drawing on the postage stamp shows a profile of Queen Elizabeth the II.</figDesc>
+              </figure>
+            </p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Martin Luther King, Jr.</persName>
+          <placeName>London</placeName>
+          <date when="1957-02-22"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Rosa Parks</persName>
+          <placeName>
+            <address>
+              <addrLine>634 Cleveland Ct.</addrLine>
+              <addrLine>Montgomery, Alabama</addrLine>
+              <country>U.S.A.</country>
+            </address>
+          </placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="postcard">
+        <head>
+          <note place="left">
+            <l>ROMA</l>
+            <l>Reconciliation Street and St. Peter.</l>
+            <l>Rue de la Conciliation et St. Pierre.</l>
+            <l>Conciliazione Strasse und Hg. Peters-kirche.</l>
+          </note>
+        </head>
+        <opener>
+          <salute>Dear Mrs. Parks,</salute>
+        </opener>
+        <p>We are having a wonderful experience touring Europe. Hope things are going well with you. I am thinking of you constantly. Will see you soon.</p>
+        <closer>
+          <salute></salute>
+          <signed>M.L. King</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

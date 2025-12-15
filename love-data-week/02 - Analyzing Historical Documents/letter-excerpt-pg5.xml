@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rosa Parks Correspondence: Undated Letter</title>
+        <author>Rosa Parks</author>
+        <respStmt>
+          <resp>transcription by</resp>
+          <persName>Anna Kijas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>encoded by</resp>
+          <persName></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Library of Congress</repository>
+            <collection>Rosa Parks Papers: General Correspondence, 1928-2006; Alphabetical file; King, Martin Luther, Jr., 1956-1957, undated</collection>
+            <idno>mss85943, box 4</idno>
+            <altIdentifier>
+              <idno type="URI">http://hdl.loc.gov/loc.mss/ms014094.mss85943.0066</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <salute>Dear Rev. King:</salute>
+        <p>
+          It is impossible to express the shock and grief I felt when you were hurt. It is good to hear that you <del rend="strikethrough">have a chance</del> are recovering, but I am sorry you have to suffer because of an insane, wanton act. I have read your book and liked it very much. Your mention of me is a great compli-ment that I appreciate.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
